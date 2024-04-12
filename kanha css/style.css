@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+    table-layout: auto;
+width: 90%;
+margin: auto;
+margin-top: 50px;
+}
+.first{
+    font-size: 51 px;
+    font-weight: bold;
+    color: blue;
+    line-height: 62px;
+}
+ .header,.para{
+    font-family: "FontContent";
+    font-size: 28px;
+    line-height: 40px;
+    color: black;
+}
